@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            画像表示
+        </title>
+    </head>
+    <body>
+        <p>こんにちは。これは簡易コードです</p>
+	<p>画像パス：{{ img_path.img_path }} </p>
+	<!--
+        <img src="./static/uploads/26d18c30-5bb6-4c42-a069-fce0cc727659.png" alt="デスクトップ画像" width="400" height="300">
+	-->
+	<img src="./static/uploads/{{ img_path.img_path }}">
+    </body>
+
+    
+</html>
